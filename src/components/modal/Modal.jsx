@@ -17,7 +17,6 @@ const Modal = () => {
 
   const handleClick = (id) => {
     if (location.pathname === "/films") {
-      console.log(id, location.pathname);
       dispatch(removeFilm(id));
     }
     if (location.pathname === "/people") {
@@ -38,7 +37,7 @@ const Modal = () => {
     dispatch(setMF());
     dispatch(setTranslate(false));
   };
-  // const
+  
   return (
     <div className="modal">
       <div>

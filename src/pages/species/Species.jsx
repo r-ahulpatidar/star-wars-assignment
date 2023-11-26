@@ -23,10 +23,6 @@ const Species = () => {
   const show = useSelector((state) => state.dropSidebar);
   const modal = useSelector((state) => state.modal);
 
-  //   if (species.length === 0 || planets.length === 0) {
-  //     return <Loader />;
-  //   }
-
   return (
     <div className="film">
       {modal && (
